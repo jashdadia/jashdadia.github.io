@@ -394,8 +394,7 @@ table, th, td {
 .link {
 	&--highlight-from-left {
 		position: relative;
-		display: inline-block; //Preventing line break
-		//This stops some issues with absolute positioning.
+		display: inline-block;
 
 		&:after {
 			content: "";
@@ -404,7 +403,6 @@ table, th, td {
 			top: -4px;
 			width: 0;
 			height: calc(100% + 8px);
-			background-color: $color--primary;
 			transition: width 0.6s ease;
 			mix-blend-mode: multiply;
 		}
@@ -426,7 +424,6 @@ table, th, td {
 			top: -4px;
 			width: 0;
 			height: calc(100% + 8px);
-			background-color: $color--primary;
 			transition: width 0.6s ease;
 			mix-blend-mode: multiply;
 		}
@@ -448,7 +445,6 @@ table, th, td {
 			bottom: -4px;
 			width: calc(100% + 8px);
 			height: 0%;
-			background-color: $color--primary;
 			transition: height 0.6s ease;
 			mix-blend-mode: multiply;
 		}
@@ -470,7 +466,6 @@ table, th, td {
 			top: -4px;
 			width: calc(100% + 8px);
 			height: 0%;
-			background-color: $color--primary;
 			transition: height 0.6s ease;
 			mix-blend-mode: multiply;
 		}
