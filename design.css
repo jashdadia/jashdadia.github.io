@@ -159,8 +159,8 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: cover;
-	text-indent: 50%;
-	text-align: center;
+	text-indent: 5vw;
+	text-align: left;
 	text-shadow: -2px 2px 0px #000,
 					2px 2px 0px #000,
 					2px -2px 0px #000,
